@@ -13,7 +13,7 @@ class App extends React.Component {
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="top_nav_left">free shipping on all u.s orders over $50</div>
+                  <div class="top_nav_left">free shipping on all orders over $50</div>
                 </div>
                 <div class="col-md-6 text-right">
                   <div class="top_nav_right">
@@ -332,16 +332,7 @@ class App extends React.Component {
                   <div class="benefit_icon"><i class="fa fa-truck" aria-hidden="true"></i></div>
                   <div class="benefit_content">
                     <h6>free shipping</h6>
-                    <p>Suffered Alteration in Some Form</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 benefit_col">
-                <div class="benefit_item d-flex flex-row align-items-center">
-                  <div class="benefit_icon"><i class="fa fa-money" aria-hidden="true"></i></div>
-                  <div class="benefit_content">
-                    <h6>cach on delivery</h6>
-                    <p>The Internet Tend To Repeat</p>
+                    <p>On all domestic orders over $50 (before tax)</p>
                   </div>
                 </div>
               </div>
@@ -349,20 +340,12 @@ class App extends React.Component {
                 <div class="benefit_item d-flex flex-row align-items-center">
                   <div class="benefit_icon"><i class="fa fa-undo" aria-hidden="true"></i></div>
                   <div class="benefit_content">
-                    <h6>45 days return</h6>
-                    <p>Making it Look Like Readable</p>
+                    <h6>45 days for free returns</h6>
+                    <p>Cost of shipping not included</p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 benefit_col">
-                <div class="benefit_item d-flex flex-row align-items-center">
-                  <div class="benefit_icon"><i class="fa fa-clock-o" aria-hidden="true"></i></div>
-                  <div class="benefit_content">
-                    <h6>opening all week</h6>
-                    <p>8AM - 09PM</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
