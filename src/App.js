@@ -117,7 +117,6 @@ class App extends React.Component {
             <div class="row align-items-center fill_height">
               <div class="col">
                 <div class="main_slider_content">
-                  <h6>Spring / Summer Collection 2021</h6>
                   <h1>Get up to 30% Off New Arrivals</h1>
                   <div class="red_button shop_now_button"><a href="#">shop now</a></div>
                 </div>
@@ -204,8 +203,8 @@ class App extends React.Component {
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                       <div class="favorite favorite_left"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-                        <div class="product_price">$410.00</div>
+                        <h6 class="product_name"><a href="#">Happier Than Ever <br /> Billie Eilish (Cassette)</a></h6>
+                        <div class="product_price">$20.00<span>35.00</span></div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -218,8 +217,8 @@ class App extends React.Component {
                       </div>
                       <div class="favorite"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h6>
-                        <div class="product_price">$180.00</div>
+                        <h6 class="product_name"><a href="#">K.I.D.S. <br/> Mac Miller (Cassette)</a></h6>
+                        <div class="product_price">$24.59</div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -231,10 +230,10 @@ class App extends React.Component {
                         <img src="assets/images/product_6.png" alt="" />
                       </div>
                       <div class="favorite favorite_left"></div>
-                      <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
+                      <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$5</span></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="##">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-                        <div class="product_price">$520.00<span>$590.00</span></div>
+                        <h6 class="product_name"><a href="##">Nevermind <br /> Nirvana (Cassette)</a></h6>
+                        <div class="product_price">$25.99<span>$30.99</span></div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -247,8 +246,8 @@ class App extends React.Component {
                       </div>
                       <div class="favorite"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                        <div class="product_price">$610.00</div>
+                        <h6 class="product_name"><a href="#">The Black Album <br /> Metallica (Cassette)</a></h6>
+                        <div class="product_price">$10.00</div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -261,8 +260,8 @@ class App extends React.Component {
                       </div>
                       <div class="favorite"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">Blue Yeti USB Microphone Blackout Edition</a></h6>
-                        <div class="product_price">$120.00</div>
+                        <h6 class="product_name"><a href="#">Wanted Dead or Alive <br/> Bon Jovi (Shirt)</a></h6>
+                        <div class="product_price">$20.00</div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -276,8 +275,8 @@ class App extends React.Component {
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
                       <div class="favorite favorite_left"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">DYMO LabelWriter 450 Turbo Thermal Label Printer</a></h6>
-                        <div class="product_price">$410.00</div>
+                        <h6 class="product_name"><a href="#">Official Logo <br/> Duran Duran (Shirt)</a></h6>
+                        <div class="product_price">$25.00 <span>$27.99</span></div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -290,8 +289,8 @@ class App extends React.Component {
                       </div>
                       <div class="favorite"></div>
                       <div class="product_info">
-                        <h6 class="product_name"><a href="#">Pryma Headphones, Rose Gold & Grey</a></h6>
-                        <div class="product_price">$180.00</div>
+                        <h6 class="product_name"><a href="#">Make It Big <br /> Wham! (Shirt)</a></h6>
+                        <div class="product_price">$29.69</div>
                       </div>
                     </div>
                     <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -368,49 +367,6 @@ class App extends React.Component {
           </div>
         </div>
      
-        <div class="blogs">
-          <div class="container">
-            <div class="row">
-              <div class="col text-center">
-                <div class="section_title">
-                  <h2>Latest Blogs</h2>
-                </div>
-              </div>
-            </div>
-            <div class="row blogs_container">
-              <div class="col-lg-4 blog_item_col">
-                <div class="blog_item">
-                  <div class="blog_background" style={{backgroundImage:"url(assets/images/blog_1.jpg)"}}></div>
-                  <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                    <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                    <span class="blog_meta">by admin | dec 01, 2021</span>
-                    <a class="blog_more" href="#">Read more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 blog_item_col">
-                <div class="blog_item">
-                  <div class="blog_background" style={{backgroundImage:"url(assets/images/blog_2.jpg)"}}></div>
-                  <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                    <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                    <span class="blog_meta">by admin | dec 01, 2021</span>
-                    <a class="blog_more" href="#">Read more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 blog_item_col">
-                <div class="blog_item">
-                  <div class="blog_background" style={{backgroundImage:"url(assets/images/blog_3.jpg)"}}></div>
-                  <div class="blog_content d-flex flex-column align-items-center justify-content-center text-center">
-                    <h4 class="blog_title">Here are the trends I see coming this fall</h4>
-                    <span class="blog_meta">by admin | dec 01, 2021</span>
-                    <a class="blog_more" href="#">Read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       
         <div class="newsletter">
           <div class="container">
@@ -439,7 +395,6 @@ class App extends React.Component {
               <div class="col-lg-6">
                 <div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
                   <ul class="footer_nav">
-                    <li><a href="#">Blog</a></li>
                     <li><a href="#">FAQs</a></li>
                     <li><a href="#">Contact us</a></li>
                   </ul>
@@ -460,7 +415,7 @@ class App extends React.Component {
             <div class="row">
               <div class="col-lg-12">
                 <div class="footer_nav_container">
-                  <div class="cr">©2021 All Rights Reserverd. Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#">Jassa</a> &amp; Loved by <a href="https://therichpost.com">Jassa</a></div>
+                  <div class="cr">©2022 All Rights Reserverd</div>
                 </div>
               </div>
             </div>
