@@ -1,13 +1,36 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { HashRouter, Routes, Route } from "react-router-dom";
 import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
+import Vinyls from "./pages/Vinyls";
+import Register from "./pages/Register";
+import Merch from "./pages/Merch";
+import Cassettes from "./pages/Cassettes";
+import Events from "./pages/Events";
+import Home from "./pages/Home";
+import Navbar from "./Navbar";
+import ShoppingCart from "./pages/ShoppingCart";
+
+
+
+ReactDOM.render(
+  <React.StrictMode>
+  <HashRouter>
+    <Navbar />
+  <Routes>
+  <Route path="/" element={<Home/>}/>
+  <Route path="/vinyls" element={<Vinyls/>}/>
+  <Route path="/register" element={<Register/>}/>
+  <Route path="/merch" element={<Merch/>}/>
+  <Route path="/cassettes" element={<Cassettes/>}/>
+  <Route path="/events" element={<Events/>}/>
+  <Route path="/cart" element={<ShoppingCart/>}/>
+
+  </Routes>
+  </HashRouter>
+  </React.StrictMode>,
+  document.getElementById("root")
+ );
 
