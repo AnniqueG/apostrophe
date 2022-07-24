@@ -4,18 +4,7 @@ import React, {Component} from 'react';
 
 
 const Home = () => {
-    const products = [
-        {name:'Torches', artist:'Foster The People', format:'Vinyl',price:'$40.12',picture:'assets/images/product_11', id:'11'},
-        {name:'Thursday', artist:'The Weeknd', format:'Vinyl',price:'$49.98',picture:'assets/images/product_12', id:'12'},
-        {name:'Blonde on Blonde', artist:'Bob Dylan', format:'Vinyl',price:'$58.45',picture:'assets/images/product_13', id:'13'},
-        {name:'Long Lost', artist:'Lord Huron', format:'Cassette',price:'$12.99',picture:'assets/images/product_14', id:'14'},
-        {name:'A Charlie Brown Christmas', artist:'Vince Guaraldi', format:'Cassette',price:'$16.17',picture:'assets/images/product_15', id:'15'},
-        {name:'Masquerade', artist:'Bananarama', format:'Cassette',price:'$19.00',picture:'assets/images/product_16', id:'16'},
-        {name:'At Last', artist:'Etta James', format:'Shirt',price:'$15.49',picture:'assets/images/product_17', id:'17'},
-        {name:'Bloom', artist:'RüFÜS DU SOL', format:'Shirt',price:'$47.84',picture:'assets/images/product_18', id:'18'},
-        {name:'Daytona Sand', artist:'Orville Peck', format:'Shirt',price:'$51.23',picture:'assets/images/product_19', id:'19'},
-    
-    ]  
+
 
     return(
         <div className="MainDiv">

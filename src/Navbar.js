@@ -14,16 +14,15 @@ const Navbar = () => {
               </div>
               <nav class="navbar">
                 <ul class="navbar_menu">
-                  <li><Link to="/vinyls">Vinyls</Link></li>
+                  <li><Link to="/vinyls">Vinyls</Link></li>                  
                   <li><Link to="/cassettes">Cassettes</Link></li>
-                  <li><Link to="/events">Events</Link></li>
                   <li><Link to="/merch">Merchandise</Link></li>
+                  <li><Link to="/events">Events</Link></li>
                   <li><Link to="/contact">Contact us</Link></li>
 
                 </ul>
                 <ul class="navbar_user">
                   <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                  <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                   <li class="checkout">
                     <a href="#">
                      <Link to="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></Link>
