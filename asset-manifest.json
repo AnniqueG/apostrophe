@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/apostrophe/static/js/main.c440f1ab.js",
+    "index.html": "/apostrophe/index.html",
+    "main.c440f1ab.js.map": "/apostrophe/static/js/main.c440f1ab.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.c440f1ab.js"
+  ]
+}
