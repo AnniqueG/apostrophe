@@ -30,18 +30,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div class="row align-items-center">
-              <div class="col text-center">
-                <div class="new_arrivals_sorting">
-                  <ul class="arrivals_grid_sorting clearfix button-group filters-button-group">
-                    <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked" data-filter="*">all</li>
-                    <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".women">vinyls</li>
-                    <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".accessories">cassettes</li>
-                    <li class="grid_sorting_button button d-flex flex-column justify-content-center align-items-center" data-filter=".men">merch</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
             <div class="row">
               <div class="col">
                 <div class="product-grid" data-isotope='{ "itemSelector": ".product-item", "layoutMode": "fitRows" }'>
@@ -51,7 +40,7 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_1.png" alt="" />
                       </div>
-                      <div class="favorite favorite_left"></div>
+  
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">OK Computer <br /> Radiohead (Vinyl 2LP)</a></h6>
@@ -66,7 +55,7 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_2.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
+
                       <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Electric Ladyland <br /> Jimi Hendrix (Vinyl 2LP)</a></h6>
@@ -81,7 +70,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_3.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Endtroducing..... <br /> DJ Shadow (Vinyl 2LP)</a></h6>
                         <div class="product_price">$120.00</div>
@@ -96,7 +84,6 @@ const Home = () => {
                         <img src="assets/images/product_4.png" alt="" />
                       </div>
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-                      <div class="favorite favorite_left"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Happier Than Ever <br /> Billie Eilish (Cassette)</a></h6>
                         <div class="product_price">$20.00<span>35.00</span></div>
@@ -110,7 +97,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_5.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">K.I.D.S. <br/> Mac Miller (Cassette)</a></h6>
                         <div class="product_price">$24.59</div>
@@ -124,7 +110,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_6.png" alt="" />
                       </div>
-                      <div class="favorite favorite_left"></div>
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$5</span></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="##">Nevermind <br /> Nirvana (Cassette)</a></h6>
@@ -139,7 +124,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_7.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">The Black Album <br /> Metallica (Cassette)</a></h6>
                         <div class="product_price">$10.00</div>
@@ -153,7 +137,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_8.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Wanted Dead or Alive <br/> Bon Jovi (Shirt)</a></h6>
                         <div class="product_price">$20.00</div>
@@ -168,7 +151,7 @@ const Home = () => {
                         <img src="assets/images/product_9.png" alt="" />
                       </div>
                       <div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>sale</span></div>
-                      <div class="favorite favorite_left"></div>
+        
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Official Logo <br/> Duran Duran (Shirt)</a></h6>
                         <div class="product_price">$25.00 <span>$27.99</span></div>
@@ -182,7 +165,6 @@ const Home = () => {
                       <div class="product_image">
                         <img src="assets/images/product_10.png" alt="" />
                       </div>
-                      <div class="favorite"></div>
                       <div class="product_info">
                         <h6 class="product_name"><a href="#">Make It Big <br /> Wham! (Shirt)</a></h6>
                         <div class="product_price">$29.69</div>

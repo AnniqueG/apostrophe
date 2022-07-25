@@ -1,50 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
 
-/******************************
-
-COLOR PALETTE
-
-
-
-
-[Table of Contents]
-
-1. Fonts
-2. Body and some general stuff
-3. Home
-	3.1 Currency
-	3.2 Language
-	3.3 Account
-	3.4 Main Navigation
-	3.5 Hamburger Menu
-	3.6 Logo
-	3.7 Main Slider
-4. Banner
-5. New Arrivals
-	5.1 New Arrivals Sorting
-	5.2 New Arrivals Products Grid
-6. Deal of the week
-7. Best Sellers
-	7.1 Slider Nav
-8. Benefit
-9. Blogs
-10. Newsletter
-11. Footer
-
-
-
-******************************/
-
-/***********
-1. Fonts
-***********/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
 
-/*********************************
-2. Body and some general stuff
-*********************************/
 
 * {
 	margin: 0;
@@ -181,7 +139,7 @@ h6::selection {}
 
 :-moz-placeholder
 
-/* older Firefox*/
+
 	{
 	font-size: 16px !important;
 	font-weight: 500;
@@ -190,7 +148,7 @@ h6::selection {}
 
 ::-moz-placeholder
 
-/* Firefox 19+ */
+
 	{
 	font-size: 16px !important;
 	font-weight: 500;
@@ -286,9 +244,7 @@ section {
 	overflow: hidden;
 }
 
-/*********************************
-3. Home
-*********************************/
+
 
 .header {
 	position: fixed;
@@ -314,171 +270,7 @@ section {
 }
 
 
-/*********************************
-3.2 Language
-*********************************/
 
-.language {
-	display: inline-block;
-	position: relative;
-	min-width: 50px;
-	border-right: solid 1px #33333b;
-	padding-right: 20px;
-	padding-left: 20px;
-	text-align: center;
-	vertical-align: middle;
-	background: #1e1e27;
-}
-
-.language>a {
-	display: block;
-	color: #b5aec4;
-	font-weight: 400;
-	height: 50px;
-	line-height: 50px;
-	font-size: 13px;
-}
-
-.language>a>i {
-	margin-left: 8px;
-}
-
-.language:hover .language_selection {
-	visibility: visible;
-	opacity: 1;
-	top: 100%;
-}
-
-.language_selection {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 120%;
-	margin: 0;
-	width: 100%;
-	background: #FFFFFF;
-	visibility: hidden;
-	opacity: 0;
-	z-index: 1;
-	box-shadow: 0 0 25px rgba(63, 78, 100, 0.15);
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-ms-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-	transition: all 0.3s ease;
-}
-
-.language_selection li {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 50px;
-}
-
-.language_selection li a {
-	display: block;
-	color: #232530;
-	border-bottom: solid 1px #dddddd;
-	font-size: 13px;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-ms-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-	transition: all 0.3s ease;
-}
-
-.language_selection li a:hover {
-	color: #b5aec4;
-}
-
-.language_selection li:last-child a {
-	border-bottom: none;
-}
-
-/*********************************
-3.3 Account
-*********************************/
-
-.account {
-	display: inline-block;
-	position: relative;
-	min-width: 50px;
-	padding-left: 20px;
-	text-align: center;
-	vertical-align: middle;
-	background: #1e1e27;
-}
-
-.account>a {
-	display: block;
-	color: #b5aec4;
-	font-weight: 400;
-	height: 50px;
-	line-height: 50px;
-	font-size: 13px;
-}
-
-.account>a>i {
-	margin-left: 8px;
-}
-
-.account:hover .account_selection {
-	visibility: visible;
-	opacity: 1;
-	top: 100%;
-}
-
-.account_selection {
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 120%;
-	margin: 0;
-	width: 100%;
-	background: #FFFFFF;
-	visibility: hidden;
-	opacity: 0;
-	z-index: 1;
-	box-shadow: 0 0 25px rgba(63, 78, 100, 0.15);
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	-ms-transition: opacity 0.3s ease;
-	-o-transition: opacity 0.3s ease;
-	transition: all 0.3s ease;
-}
-
-.account_selection li {
-	padding-left: 10px;
-	padding-right: 10px;
-	line-height: 50px;
-}
-
-.account_selection li a {
-	display: block;
-	color: #232530;
-	border-bottom: solid 1px #dddddd;
-	font-size: 14px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
-}
-
-.account_selection li a:hover {
-	color: #b5aec4;
-}
-
-.account_selection li:last-child a {
-	border-bottom: none;
-}
-
-.account_selection li a i {
-	margin-right: 10px;
-}
-
-/*********************************
-3.4 Main Navigation
-*********************************/
 
 .main_nav_container {
 	width: 100%;
@@ -573,10 +365,6 @@ section {
 	font-size: 12px;
 	color: #FFFFFF;
 }
-
-/*********************************
-3.5 Hamburger Menu
-*********************************/
 
 .hamburger_container {
 	display: none;
@@ -732,9 +520,7 @@ section {
 	border-bottom: none;
 }
 
-/*********************************
-3.6 Logo
-*********************************/
+
 
 .logo_container {
 	position: absolute;
@@ -758,9 +544,7 @@ section {
 	color: #6d71d7;
 }
 
-/*********************************
-3.7 Main Slider
-*********************************/
+
 
 .main_slider {
 	width: 100%;
@@ -826,9 +610,6 @@ section {
 	margin-top: 32px;
 }
 
-/*********************************
-4. Banner
-*********************************/
 
 .banner {
 	width: 100%;
@@ -878,9 +659,6 @@ section {
 	color: #b5aec4;
 }
 
-/*********************************
-5. New Arrivals
-*********************************/
 
 .new_arrivals {
 	width: 100%;
@@ -889,10 +667,6 @@ section {
 .new_arrivals_title {
 	margin-top: 74px;
 }
-
-/*********************************
-5.1 New Arrivals Sorting
-*********************************/
 
 .new_arrivals_sorting {
 	display: inline-block;
@@ -932,10 +706,6 @@ section {
 	color: #FFFFFF;
 	background: #6d71d7;
 }
-
-/*********************************
-5.2 New Arrivals Products Grid
-*********************************/
 
 .product-grid {
 	width: 100%;
@@ -1144,10 +914,6 @@ section {
 	color: #6d71d7;
 }
 
-/*********************************
-6. Deal of the week
-*********************************/
-
 .deal_ofthe_week {
 	width: 100%;
 	margin-top: 41px;
@@ -1232,92 +998,6 @@ section {
 	background: #2b2b34 !important;
 }
 
-/*********************************
-7. Best Sellers
-*********************************/
-
-.product_slider_container {
-	width: 100%;
-	height: 340px;
-	margin-top: 73px;
-}
-
-.product_slider_container::after {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 1px;
-	height: 100%;
-	background: #FFFFFF;
-	content: '';
-	z-index: 1;
-}
-
-.product_slider {
-	overflow: visible !important;
-}
-
-.product_slider_item .product-item {
-	height: 340px;
-}
-
-.product_slider_item {
-	width: 20%;
-}
-
-.product_slider_item .product-item {
-	width: 100% !important;
-}
-
-/*********************************
-7.1 Slider Nav
-*********************************/
-
-.product_slider_nav {
-	position: absolute;
-	width: 30px;
-	height: 70px;
-	background: #d3d3d6;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	z-index: 2;
-	cursor: pointer;
-	visibility: hidden;
-	opacity: 0;
-	-webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
-}
-
-.product_slider_container:hover .product_slider_nav {
-	visibility: visible;
-	opacity: 1;
-}
-
-.product_slider_nav i {
-	color: #FFFFFF;
-	font-size: 12px;
-}
-
-.product_slider_nav_left {
-	top: 50%;
-	left: 0;
-}
-
-.product_slider_nav_right {
-	top: 50%;
-	right: 0;
-}
-
-/*********************************
-8. Benefit
-*********************************/
 
 .benefit {
 	margin-top: 74px;
@@ -1367,97 +1047,6 @@ section {
 	color: #51545f;
 }
 
-/*********************************
-9. Blogs
-*********************************/
-
-.blogs {
-	margin-top: 72px;
-}
-
-.blogs_container {
-	margin-top: 53px;
-}
-
-.blog_item {
-	height: 255px;
-	width: 100%;
-}
-
-.blog_background {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-
-.blog_content {
-	position: absolute;
-	top: 30px;
-	left: 30px;
-	width: calc(100% - 60px);
-	height: calc(100% - 60px);
-	background: rgba(255, 255, 255, 0.9);
-	padding-left: 10px;
-	padding-right: 10px;
-	visibility: hidden;
-	opacity: 0;
-	transform-origin: center center;
-	-webkit-transform: scale(0.7);
-	-moz-transform: scale(0.7);
-	-ms-transform: scale(0.7);
-	-o-transform: scale(0.7);
-	transform: scale(0.7);
-	-webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
-}
-
-.blog_item:hover .blog_content {
-	visibility: visible;
-	opacity: 1;
-	transform: scale(1);
-}
-
-.blog_title {
-	font-weight: 500;
-	line-height: 1.25;
-	margin-bottom: 0px;
-}
-
-.blog_meta {
-	font-size: 12px;
-	line-height: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: #51545f;
-	margin-bottom: 0px;
-	margin-top: 3px;
-	letter-spacing: 1px;
-}
-
-.blog_more {
-	font-size: 14px;
-	line-height: 16px;
-	font-weight: 500;
-	color: #6d71d7;
-	border-bottom: solid 1px #6d71d7;
-	margin-top: 12px;
-}
-
-.blog_more:hover {
-	color: #FE7C7F;
-}
-
-/*********************************
-10. Newsletter
-*********************************/
 
 .newsletter {
 	width: 100%;
@@ -1509,7 +1098,7 @@ section {
 
 #newsletter_email:-moz-placeholder
 
-/* older Firefox*/
+
 	{
 	font-size: 14px !important;
 	font-weight: 400;
@@ -1518,7 +1107,7 @@ section {
 
 #newsletter_email::-moz-placeholder
 
-/* Firefox 19+ */
+
 	{
 	font-size: 14px !important;
 	font-weight: 400;
@@ -1552,10 +1141,6 @@ section {
 .newsletter_submit_btn:hover {
 	background: #FE7C7F;
 }
-
-/*********************************
-11. Footer
-*********************************/
 
 .footer_nav_container {
 	height: 130px;
@@ -1623,18 +1208,13 @@ section {
 	color: #6d71d7;
 }
 
-/* ==== BASE STYLES ====*/
-/* ==================== GLOBAL STYLES ======================= */
 
 html {
 	font-family: "Inter", sans-serif;
 	font-size: 15px;
 }
 
-/* ========================
-INCLUDE STYLES AND COMPONENTS
-===================== */
-/* ================== HELPERS  =================== */
+
 a:hover {
 	text-decoration: none;
 }
@@ -1662,7 +1242,7 @@ a:hover {
 	padding: 2rem 2.3rem;
 }
 
-/* =================  DEFINED VARIABLES =================== */
+
 .icon-xs,
 .icon-sm,
 .icon-md,
@@ -1772,12 +1352,7 @@ a:hover {
 
 .hover-bg:hover {
 	background: #3167eb;
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
 	background: linear-gradient(to bottom right, #3167eb, #3167eb);
-	/* Standard syntax */
 	transition: 0.5s;
 }
 
@@ -1786,7 +1361,6 @@ a:hover {
 	transform: scaleX(1);
 }
 
-/* ============== spacing ============== */
 .padding-y {
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -1852,7 +1426,7 @@ figure {
 	height: 2.875rem;
 }
 
-/* all clearfix */
+
 article:after,
 .form-group:after {
 	display: block;
@@ -1860,7 +1434,7 @@ article:after,
 	content: "";
 }
 
-/* -------------------- small grid gutter --------------------- */
+
 .row-sm {
 	margin-right: -7px;
 	margin-left: -7px;
@@ -1899,56 +1473,41 @@ article:after,
 
 .bg-gradient-blue {
 	background: rgba(33, 37, 41, 0.4);
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, rgba(49, 103, 235, 0.9), rgba(33, 37, 41, 0.4));
-	/* Standard syntax */
+
 	transition: 0.5s;
 }
 
 .bg-gradient-green {
 	background: rgba(33, 37, 41, 0.4);
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, rgba(0, 181, 23, 0.9), rgba(33, 37, 41, 0.4));
-	/* Standard syntax */
+
 	transition: 0.5s;
 }
 
 .bg-gradient-orange {
 	background: rgba(33, 37, 41, 0.4);
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, rgba(255, 144, 23, 0.9), rgba(33, 37, 41, 0.4));
-	/* Standard syntax */
+
 	transition: 0.5s;
 }
 
 .bg-gradient-red {
 	background: rgba(33, 37, 41, 0.4);
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, rgba(250, 52, 52, 0.9), rgba(33, 37, 41, 0.4));
-	/* Standard syntax */
+
 	transition: 0.5s;
 }
 
 .bg-gradient-pink {
 	background: rgba(33, 37, 41, 0.4);
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, rgba(232, 62, 140, 0.9), rgba(33, 37, 41, 0.4));
-	/* Standard syntax */
+
 	transition: 0.5s;
 }
 
@@ -1982,19 +1541,15 @@ article:after,
 	opacity: 0.6;
 	transition: 0.5s;
 	background: aqua;
-	/* For browsers that do not support gradients */
-	/* For Safari 5.1 to 6.0 */
-	/* For Opera 11.1 to 12.0 */
-	/* For Firefox 3.6 to 15 */
+
 	background: linear-gradient(to bottom right, #3167eb, aqua);
-	/* Standard syntax */
+
 }
 
 .overlay-gradient:hover:before {
 	opacity: 0.9;
 }
 
-/* --------------------- titles ---------------------- */
 .section-heading {
 	margin-bottom: 20px;
 	margin-top: 15px;
@@ -2040,7 +1595,6 @@ p:last-child {
 	margin-bottom: 0;
 }
 
-/* ==================  title helpers ================ */
 .rtl {
 	direction: rtl;
 }
@@ -2049,8 +1603,6 @@ p:last-child {
 	direction: ltr;
 }
 
-/* ================== SECTIONS =================== */
-/* ================== header main ==================  */
 .header-top-light .nav-link {
 	color: #969696;
 }
@@ -2117,9 +1669,7 @@ p:last-child {
 	color: #3167eb;
 }
 
-/* desktop only */
-/* desktop only .end */
-/* ================ SECTION-FOOTER ==================  */
+
 .section-footer ul li {
 	margin-bottom: 5px;
 }
@@ -2152,8 +1702,7 @@ p:last-child {
 	padding-bottom: 20px;
 }
 
-/* ================== COMPONENTS =================== */
-/* ================ OWL SLIDER BANNER ================ */
+
 .slider-banner-owl .owl-nav .owl-prev,
 .slider-banner-owl .owl-nav .owl-next {
 	padding: 16px 7px;
@@ -2341,7 +1890,7 @@ a.itemside {
 	vertical-align: middle;
 }
 
-/* --------- description list --------*/
+
 dl[class=row] {
 	margin-bottom: 0;
 }
@@ -2373,14 +1922,12 @@ dl[class=row] {
 	flex-grow: 1;
 }
 
-/* -------------------- list.row--------------------- */
 ul.row,
 ul.row-sm {
 	list-style: none;
 	padding: 0;
 }
 
-/* ================= lists ================= */
 [class*=list-] li:after {
 	visibility: hidden;
 	display: block;
@@ -2514,7 +2061,6 @@ ul.row-sm {
 	column-count: 4;
 }
 
-/* IF CARD IS LINKED */
 a[class*=card] {
 	color: initial;
 }
@@ -2523,7 +2069,7 @@ a[class*=card]:hover .title {
 	color: #3167eb;
 }
 
-/* BASE STYLE FOR PRODUCT ITEM */
+
 [class*=card-product] a.title {
 	color: #212529;
 	display: block;
@@ -2557,7 +2103,7 @@ a[class*=card]:hover .title {
 	object-fit: cover;
 }
 
-/* GRID STYLE PRODUCT ITEM */
+
 .card-product-grid {
 	margin-bottom: 20px;
 }
@@ -2626,7 +2172,6 @@ a[class*=card]:hover .title {
 	margin-bottom: 0;
 }
 
-/* LARGE LIST STYLE PRODUCT ITEM */
 .card-product-list {
 	margin-bottom: 20px;
 }
@@ -2819,7 +2364,6 @@ a[class*=card]:hover .title {
 	border-bottom: 0;
 }
 
-/* ====================== block ==================== */
 .box {
 	padding: 18px;
 	background: #fff;
@@ -2831,14 +2375,12 @@ a[class*=card]:hover .title {
 	max-width: 100%;
 }
 
-/* ================= RATINGS ============== */
 .label-rating {
 	margin-left: 7px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
-/* rating-list */
 .rating-stars {
 	display: inline-block;
 	vertical-align: middle;
@@ -2885,7 +2427,6 @@ a[class*=card]:hover .title {
 	max-width: none;
 }
 
-/* ================= TRACKING ============== */
 .tracking-wrap {
 	position: relative;
 	background-color: #ddd;
@@ -3105,13 +2646,10 @@ a[class*=card]:hover .title {
 	padding-bottom: 5px;
 }
 
-/* ================== PAGES =================== */
-/* ================ PAGES HEADER ================== */
 .section-pagetop {
 	padding-top: 125px;
 }
 
-/* ================== PAGE DETAILS ==================  */
 .gallery-wrap .img-big-wrap {
 	margin-bottom: 10px;
 	border-radius: 0.37rem;
@@ -3171,9 +2709,7 @@ a[class*=card]:hover .title {
 	min-width: 80px;
 }
 
-/* ================ PAGES HEADER ================== */
-/* ====================== shopping-cart ==================== */
-.table-shopping-cart.table td,
+
 .table-shopping-cart.table th {
 	padding-left: 1.25rem;
 	padding-right: 1.25rem;
@@ -3188,5 +2724,3 @@ a[class*=card]:hover .title {
 	margin-right: 5px;
 	display: block;
 }
-
-/*# sourceMappingURL=ui.css.map */

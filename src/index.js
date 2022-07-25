@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import App from './App';
 
 
 import Vinyls from "./pages/Vinyls";
-import Register from "./pages/Register";
 import Merch from "./pages/Merch";
 import Cassettes from "./pages/Cassettes";
 import Events from "./pages/Events";
@@ -22,7 +20,7 @@ ReactDOM.render(
   <Routes>
   <Route path="/" element={<Home/>}/>
   <Route path="/vinyls" element={<Vinyls/>}/>
-  <Route path="/register" element={<Register/>}/>
+
   <Route path="/merch" element={<Merch/>}/>
   <Route path="/cassettes" element={<Cassettes/>}/>
   <Route path="/events" element={<Events/>}/>
